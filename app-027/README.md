@@ -19,6 +19,7 @@ npm install
 npm run dev          # http://127.0.0.1:5173
 npm run build        # 类型检查 + 生产构建
 npm run preview      # 预览构建产物
+npm test             # 几何内核命令行测试（自交/包含树/弧长取点/重复路径/导出换算）
 ```
 
 ## Docker 构建

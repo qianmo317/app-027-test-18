@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview --port 4173 --strictPort"
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "tsx src/logic/__tests__/kernel.test.ts"
   },
   "dependencies": {
     "vue": "^3.5.13",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "tsx": "^4.23.15",
     "typescript": "~5.6.3",
     "vite": "^6.0.11",
     "vue-tsc": "^2.2.0"
